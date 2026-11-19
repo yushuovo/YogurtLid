@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>verify-bulk</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- 直接链接 Mod 内的纯计算源码，保证验证的就是发布代码。 -->
+    <Compile Include="..\..\Integrations\BulkRecoveryMath.cs" Link="BulkRecoveryMath.cs" />
+  </ItemGroup>
+</Project>
+

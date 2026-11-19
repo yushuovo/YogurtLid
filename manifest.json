@@ -1,0 +1,18 @@
+{
+  "Name": "Yogurt Lid",
+  "Author": "ayushua",
+  "Version": "1.0.1",
+  "Description": "在快捷栏选中食物时，于生命条与体力条上预览食用后的恢复区间。",
+  "UniqueID": "YogurtLid",
+  "EntryDll": "YogurtLid.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [
+    "Nexus:55704"
+  ],
+  "Dependencies": [
+    {
+      "UniqueID": "Darkmushu1.BulkEatingAndDrinking",
+      "IsRequired": false
+    }
+  ]
+}

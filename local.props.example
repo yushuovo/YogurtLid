@@ -1,0 +1,6 @@
+<Project>
+  <!-- 复制为 local.props 后填写本机游戏目录；local.props 不提交仓库。 -->
+  <PropertyGroup>
+    <GamePath>C:\Path\To\Stardew Valley</GamePath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+releases/
+local.props
+.vs/
+.vscode/
+.dotnet-home/
+.nuget/
+.tools/
+.env
+.env.*
+*.user
+*.log
+*.mp4
+*.gif
